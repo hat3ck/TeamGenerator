@@ -1,4 +1,4 @@
-# TeamGenerator
+# Sports Team Generator
 This code is designed to create teams and distribute players fairly for your recreational sports activities. By default, it is used for Football (soccer) but it can be used for other sports too. For the ease of implementation it is better to use a google form to get the player ratings from participants. In this code we have the following considerations:
 
 - Players will be rated from best to worst (a sample is available below)
