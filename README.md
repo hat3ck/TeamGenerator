@@ -41,7 +41,7 @@ We will utilize google's Colaboratory to run the code. You will need to follow t
 Enter absent players separated by commas: Carvajal
 Enter the number of teams: 3
 Enter goalkeepers separated by commas (up to the number of teams): Valdes,Casillas,Buffon
-Enter the number of guest players: 0
+Enter the number of guest players: 1
 Team 1: Ronaldo, Modric, Casillas, Roberto, Marcelo
 Team 2: Iniesta, Buffon, Messi, Fabregas, Kroos
 Team 3: Xavi, Valdes, Rudiger, Ibrahimovic, Guest Player 1
