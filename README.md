@@ -5,7 +5,7 @@ This code is designed to create teams and distribute players fairly for your rec
 - Average position of each player will be calculated and they will be assigned into skill buckets from 1 to 5 stars. I tried to distributee players fairly and randomly based on their skill bucket. As an example, a 5 star player, is a top player that should not end up in the same team as another 5 star player if possible.
 - Goalkeepers are considered, so they do not end up in the same team if possible.
 - Absent players are considered.
-- In case of missing players, a guest player will be added to the team. ex. You have 14 available players and you want to play with 3 teams. "Guest Player 1" will be added to one of the teams.
+- You can add guest players to the teams
 
 ## How it works
 ### Create a google form to get the input
@@ -32,6 +32,7 @@ We will utilize google's Colaboratory to run the code. You will need to follow t
  - You will be asked to enter the name of absent players, comma separated, and without space (you can press enter and skip if no one is missing).
  - You will be asked to enter the number of teams you want to create.
  - You will be asked to enter the name of your goalkeepers for an equal distribution between teams (you can press enter and skip if you have no goalkeepers)
+ - You will be asked to enter the number of guest players you want to add to the teams (you can enter 0 and skip if you have no guest players)
  - Finally, your teams will be generated. You can also check your top players in the end based on the responses
 
 
@@ -40,6 +41,7 @@ We will utilize google's Colaboratory to run the code. You will need to follow t
 Enter absent players separated by commas: Carvajal
 Enter the number of teams: 3
 Enter goalkeepers separated by commas (up to the number of teams): Valdes,Casillas,Buffon
+Enter the number of guest players: 0
 Team 1: Ronaldo, Modric, Casillas, Roberto, Marcelo
 Team 2: Iniesta, Buffon, Messi, Fabregas, Kroos
 Team 3: Xavi, Valdes, Rudiger, Ibrahimovic, Guest Player 1
